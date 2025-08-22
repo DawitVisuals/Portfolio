@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Dawit Visuals</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-KdONx+/F4J4dhT8fyJXOK6w2lsXfX3lgIudRk92yr4OQfqHQ3U5ltzuF0TYxQW/Sb1lLp4AA5upFRdS7kqRDkg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <nav>
+        <div class="logo">Dawit Visuals</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="weddings.html">Weddings &amp; Engagements</a></li>
+          <li><a href="portraits.html">Portraits &amp; Families</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Get in Touch</h1>
+        <p>
+          I’d love to hear about your plans and answer any questions. Use the
+          form below or reach out directly via email.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="contact-container">
+        <h2>Contact Me</h2>
+        <p>
+          Fill out the form and I’ll respond within 24 hours. Let me know the
+          type of session you’re interested in and any dates you have in mind.
+        </p>
+        <form
+          action="#"
+          method="POST"
+          onsubmit="alert('Thank you! Your message has been sent.'); return false;"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="text"
+            name="phone"
+            placeholder="Phone Number (optional)"
+          />
+          <textarea
+            name="message"
+            placeholder="Tell me about your wedding, engagement or portrait session..."
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div style="margin-top: 30px; color: #cccccc;">
+          <p>
+          Or email me directly at
+            <a
+              href="mailto:hello@dawitvisuals.com"
+              style="color: var(--primary-color); text-decoration: none;"
+              >hello@dawitvisuals.com</a
+            >
+          </p>
+          <p>Based in Atlanta, Georgia, United States</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Dawit Visuals | All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
